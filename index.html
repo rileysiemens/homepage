@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Riley Siemens - Since 1990</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+	<script type="text/javascript" src="games.js"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white font-black text-xl sm:text-2xl font-['Helvetica'] tracking-tight">
+	<div class="min-h-screen flex flex-col items-center gap-16 justify-center p-4 sm:p-20 md:flex-row">
+		<svg class="fill-current shrink-0 w-60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0, 0, 400,400">
+			<path fill="currentColor" d="M184.181 0.585 C 64.684 11.856,-16.906 117.651,3.159 235.311 C 17.363 318.600,86.368 385.624,170.339 397.690 C 322.068 419.492,440.639 272.480,386.991 129.071 C 356.247 46.887,270.335 -7.541,184.181 0.585 M223.446 28.739 C 340.604 46.578,406.532 169.254,355.715 274.859 C 309.394 371.120,187.287 402.759,100.282 341.043 C 2.951 272.002,2.990 127.969,100.358 58.903 C 135.691 33.840,182.160 22.453,223.446 28.739 M226.919 106.356 C 218.583 125.997,169.301 239.935,169.027 240.202 C 168.816 240.407,146.017 231.867,118.362 221.224 L 68.079 201.874 67.906 200.149 C 67.749 198.578,67.952 198.341,70.166 197.515 C 71.504 197.016,87.218 191.423,105.085 185.086 L 137.571 173.565 137.721 159.099 C 137.804 151.142,137.677 144.626,137.439 144.618 C 137.201 144.610,113.806 153.817,85.452 165.079 L 33.898 185.554 33.898 200.061 C 33.898 211.145,34.065 214.633,34.605 214.842 C 38.345 216.288,157.963 265.151,158.123 265.297 C 158.241 265.405,155.508 272.092,152.050 280.158 C 148.592 288.223,145.763 294.974,145.763 295.160 C 145.763 295.347,152.420 295.431,160.557 295.348 L 175.351 295.198 204.318 227.966 C 223.549 183.330,233.530 160.796,234.015 160.917 C 234.555 161.052,324.911 195.558,331.245 198.049 C 331.974 198.335,332.215 198.930,332.093 200.137 L 331.921 201.825 297.327 214.048 L 262.733 226.271 262.723 240.819 C 262.717 248.821,262.814 255.367,262.938 255.367 C 263.312 255.367,364.610 215.184,365.688 214.608 C 366.608 214.116,366.674 212.962,366.535 199.854 L 366.384 185.634 305.650 160.933 C 272.246 147.348,244.689 136.140,244.412 136.028 C 244.136 135.915,246.773 129.225,250.273 121.160 C 253.773 113.095,256.762 106.052,256.915 105.508 C 257.176 104.585,256.221 104.520,242.446 104.520 L 227.699 104.520 226.919 106.356 " stroke="none" fill-rule="evenodd"></path>
+		</svg>
+		<div class="hidden md:block md:border-l-8 md:h-60"></div>
+		<div>
+			<h1 class="text-4xl text-center xs:text-6xl sm:text-left md:text-8xl">Riley Siemens</h1>
+			<p class="mt-4 text-3xl text-center uppercase tracking-widest font-normal md:text-left md:text-4xl">Since 1990</p>
+		</div>
+	</div>
+
+	<div 
+		x-data="{
+			currentTab: 0,
+			tabs: ['Home', 'Recipes', 'Video Games', 'Writings'],
+			selectTab(tabIndex) {
+				this.currentTab = tabIndex
+				if (this.tabs[this.currentTab] === 'Home') {
+					history.replaceState('', '', window.location.pathname)     // remove hash
+				} else {
+					history.replaceState('', '', window.location.pathname + '#' + slugify(this.tabs[this.currentTab]))
+				}
+			}
+		}"
+		class="min-h-screen p-4 lg:p-20"
+	>
+		<div class="flex gap-8 text-3xl mb-20 max-w-[100vw] overflow-x-auto sm:text-4xl">
+			<template x-for="(tab, index) in tabs">
+				<a :id="slugify(tab)" href="javascript:void(0)" @click="selectTab(index)" x-text="tab" class="scroll-mt-8 whitespace-nowrap outline-none hover:text-neutral-200" :class="index === currentTab ? 'text-white' : 'text-neutral-500'" />
+			</template>
+		</div>
+
+		<div
+			x-show="currentTab === 0"
+			x-transition:enter="transition ease-out duration-300"
+			x-transition:enter-start="opacity-0 scale-90"
+			x-transition:enter-end="opacity-100 scale-100"
+			x-transition:leave="hidden"
+			class="space-y-12 max-w-xl"
+		>
+			<img id="gravatar" class="rounded-full border-2 border-neutral-600" />
+			<p>Hello! I'm Riley.</p>
+			<p>You might notice this website doesn't have a lot of useful or interesting content on it.</p>
+			<p>I have no argument against that.</p>
+			<p>It's become a place for me to keep and share <u>recipes</u> (like my pizza dough recipe, for example), and a list of all the <u>video games</u> I've bought since 2017.</p>
+			<p>This is a good place to share my <u>writings</u> seeing as I have no social media with which to broadcast inane thoughts.</p>
+			<p>But the main reason I bought this domain was so I could have a custom email address like this:
+				<span class="whitespace-nowrap">
+					hi<span class="after:content-['@']"></span>rileysiemens<span class="after:content-['.']"></span>com.
+				</span>
+			</p>
+			<p>Please enjoy!</p>
+		</div>
+
+		<!-- Recipes -->
+		<div
+			x-show="currentTab === 1"
+			x-transition:enter="transition ease-out duration-300"
+			x-transition:enter-start="opacity-0 scale-90"
+			x-transition:enter-end="opacity-100 scale-100"
+			x-transition:leave="hidden"
+			class="space-y-20"
+		>
+			<div 
+				x-data="{
+					flour: 142.5,
+					hydration: 0.62,
+					balls: 4,
+					tweaks: false,
+					getFlour() { return Math.round(this.flour * this.balls) },
+					getWater() { return Math.round(this.flour * this.hydration * this.balls) },
+					getSalt() { return Math.round(4 * this.balls) },
+					getYeast() { return Math.round(this.balls) },
+					getWeight() { return Math.round((this.getFlour() + this.getWater() + this.getSalt() + this.getYeast()) / this.balls) },
+					getHydration() { return Math.round(this.hydration * 100) + '%' }
+				}" 
+				class="space-y-6 max-w-2xl"
+			>
+				<h3 class="text-3xl sm:text-4xl">Neapolitan Pizza Dough</h3>
+				<p class="text-2xl sm:text-3xl">Ingredients <a href="javascript:void(0)" class="text-lg text-neutral-600 hover:text-white" @click="tweaks = ! tweaks">tweak</a></p>
+				<div class="ml-8 grid grid-cols-2 gap-2">
+					<div>water</div>
+					<div><span x-text="getWater()"></span>g</div>
+					<div>salt</div>
+					<div><span x-text="getSalt()"></span>g</div>
+					<div>instant yeast</div>
+					<div><span x-text="getYeast()"></span>g</div>
+					<div>bread flour</div>
+					<div><span x-text="getFlour()"></span>g</div>
+				</div>
+				<div x-show="tweaks" x-transition class="flex flex-col gap-6 max-w-lg">
+					<div class="flex flex-col">
+						<p x-text="'dough balls: ' + balls"></p>
+						<input type="range" min="1" max="16" class="bg-white" x-model="balls" />
+					</div>
+					<div class="flex flex-col">
+						<p x-text="'Flour Hydration: ' + getHydration()"></p>
+						<input type="range" min="0.5" max="0.7" step="0.01" x-model="hydration" />
+						<p class="text-base text-neutral-400">should between 55% - 63%</p>
+					</div>
+				</div>
+				<p class="text-2xl sm:text-3xl">Steps</p>
+				<ol class="list-decimal list-inside space-y-4">
+					<li>
+						Combine water and salt. Mix until dissolved. Then add yeast to mixture (Note: do not let yeast sit in salt mixture long. It will kill the yeast.)
+					</li>
+					<li>
+						Add flour to mixture and mix until it forms a rough dough. Continue to knead until it forms a tight dough (around 10 minutes).
+					</li>
+					<li>
+						Remove the dough from the mixing bowl and use your hands to form a tight dough ball. It should spring back when pressed.
+					</li>
+					<li>
+						Lightly coat ball with olive oil, and place on a flat surface. Cover with plastic wrap, a cloth, or an upturned mixing bowl. Let it rest for 30 min.
+					</li>
+					<li>
+						After resting, the dough should be much softer & stretchier. If it passes the <a href="https://www.youtube.com/watch?v=FrNI5gHXmNg" class="text-blue-500 hover:underline">window pane test</a> it will make a good pizza.
+					</li>
+					<li>
+						Divide into <span x-text="balls"></span> equal dough balls (~<span x-text="getWeight()"></span>g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best). 
+					</li>
+					<li>
+						Store dough in the fridge for at least 8 hours, or up to 3 days.
+					</li>
+				</ol>
+			</div>
+
+			<div 
+				x-data="{
+					flour: 159.5,
+					hydration: 0.66,
+					balls: 4,
+					tweaks: false,
+					getFlour() { return Math.round(this.flour * this.balls) },
+					getWater() { return Math.round(this.flour * this.hydration * this.balls) },
+					getSalt() { return Math.round(this.flour * 0.037 * this.balls) },
+					getSugar() { return Math.round(this.flour * 0.022 * this.balls) },
+					getYeast() { return Math.round(this.flour * 0.03 * this.balls) },
+					getOil() { return Math.round(this.flour * 0.05 * this.balls) },
+					getWeight() { return Math.round((this.getFlour() + this.getWater() + this.getSalt() + this.getSugar() + this.getYeast() + this.getOil()) / this.balls) },
+					getHydration() { return Math.round(this.hydration * 100) + '%' }
+				}" 
+				class="space-y-6 max-w-2xl"
+			>
+				<h3 class="text-3xl sm:text-4xl">New York Pizza Dough</h3>
+				<p class="text-3xl">Ingredients <a href="javascript:void(0)" class="text-lg text-neutral-600 hover:text-white" @click="tweaks = ! tweaks">tweak</a></p>
+				<div class="ml-8 grid grid-cols-2 gap-2">
+					<div>water</div>
+					<div><span x-text="getWater()"></span>g</div>
+					<div>salt</div>
+					<div><span x-text="getSalt()"></span>g</div>
+					<div>sugar</div>
+					<div><span x-text="getSugar()"></span>g</div>
+					<div>instant yeast</div>
+					<div><span x-text="getYeast()"></span>g</div>
+					<div>olive oil</div>
+					<div><span x-text="getOil()"></span>g</div>
+					<div>bread flour</div>
+					<div><span x-text="getFlour()"></span>g</div>
+				</div>
+				<div x-show="tweaks" x-transition class="flex flex-col gap-6 max-w-lg">
+					<div class="flex flex-col">
+						<p x-text="'dough balls: ' + balls"></p>
+						<input type="range" min="1" max="16" class="bg-white" x-model="balls" />
+					</div>
+					<div class="flex flex-col">
+						<p x-text="'Flour Hydration: ' + getHydration()"></p>
+						<input type="range" min="0.5" max="0.7" step="0.01" x-model="hydration" />
+					</div>
+				</div>
+				<p class="text-3xl">Steps</p>
+				<ol class="list-decimal list-inside space-y-4">
+					<li>
+						Combine water, salt, and sugar. Mix until dissolved. Then add oil & yeast to mixture (Note: do not let yeast sit in salt mixture long. It will kill the yeast.)
+					</li>
+					<li>
+						Add flour to mixture and mix until it forms a rough dough. Continue to knead until it forms a tight dough (around 10 minutes).
+					</li>
+					<li>
+						Remove the dough from the mixing bowl and use your hands to form a tight dough ball. It should spring back when pressed.
+					</li>
+					<li>
+						Lightly coat ball with olive oil, and place on a flat surface. Cover with plastic wrap, or with an upturned mixing bowl. Let it rest for 30 min.
+					</li>
+					<li>
+						After resting, the dough should be much softer & stretchier. If it passes the <a href="https://www.youtube.com/watch?v=FrNI5gHXmNg" class="text-blue-500 hover:underline">window pane test</a> it will make a good pizza.
+					</li>
+					<li>
+						Divide into <span x-text="balls"></span> equal dough balls (~<span x-text="getWeight()"></span>g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best). 
+					</li>
+					<li>
+						Store dough in the fridge for at least 8 hours, or up to 3 days.
+					</li>
+				</ol>
+			</div>
+		</div>
+
+		<!-- Video Games -->
+		<div
+			x-data="{
+				games: JSON.parse(videoGames),
+				shouldPrintYear(index) {
+					if (this.games.length === 0) return false
+					if (index === 0) return true
+					return getYear(this.games[index - 1].date) != getYear(this.games[index].date)
+				},
+				getPrice(game) {
+					return '$' + Number.parseFloat(game.price).toFixed(2)
+				}
+			}"
+			x-show="currentTab === 2"
+			x-transition:enter="transition ease-out duration-300"
+			x-transition:enter-start="opacity-0 scale-90"
+			x-transition:enter-end="opacity-100 scale-100"
+			x-transition:leave="hidden"
+			class="max-w-2xl space-y-2"
+		>
+			<template x-for="(game, index) in games">
+				<div class="grid grid-cols-12 gap-2">
+					<template x-if="shouldPrintYear(index)">
+						<h3 class="text-3xl sm:text-4xl col-span-12 mt-8" x-text="getYear(game.date)"></h3>
+					</template>
+					<p class="col-span-2" x-text="getMonthDay(game.date)"></p>
+					<p class="col-span-8" x-text="game.name"></p>
+					<p class="col-span-2 text-right" x-text="getPrice(game)"></p>
+				</div>
+			</template>
+		</div>
+
+		<!-- Writings -->
+		<div
+			x-show="currentTab === 3"
+			x-transition:enter="transition ease-out duration-300"
+			x-transition:enter-start="opacity-0 scale-90"
+			x-transition:enter-end="opacity-100 scale-100"
+			x-transition:leave="hidden"
+		>
+			Coming Soon
+		</div>
+	</div>
+
+	<script>
+		window.addEventListener('load', () => {
+			// load gravatar
+			var first = 'contact'
+			var last = 'rileysiemens'
+			document.querySelector('#gravatar').setAttribute('src', gravatarUrl(first+'@'+last+'.com'))
+			
+			// click appropriate tab
+			clickHash()
+		})
+
+		function getMonthDay(dateString) {
+			var date = new Date(dateString)
+			var month = date.toLocaleString('default', { month: 'short' });
+
+			return `${month} ${date.getDate()}`
+		}
+
+		function getYear(dateString) {
+			var date = new Date(dateString)
+			return date.getFullYear()
+		}
+
+		function slugify(name) {
+			return name.toLowerCase()                           // convert name to lower case
+				.replace(/[\"\'.,\/#!$%\^&\*;:{}=\-_`~()]/g, "") // remove all punctuation
+				.replace(/\s{2,}/g, " ")                         // collapse all spaces down to 1 space
+				.replaceAll(' ', '-')                           // replace all spaces with hyphen
+		}
+
+		function gravatarUrl(email) {
+			var MD5 = function(d) {var r = M(V(Y(X(d),8*d.length)));return r.toLowerCase()};function M(d){for(var _,m="0123456789ABCDEF",f="",r=0;r<d.length;r++)_=d.charCodeAt(r),f+=m.charAt(_>>>4&15)+m.charAt(15&_);return f}function X(d){for(var _=Array(d.length>>2),m=0;m<_.length;m++)_[m]=0;for(m=0;m<8*d.length;m+=8)_[m>>5]|=(255&d.charCodeAt(m/8))<<m%32;return _}function V(d){for(var _="",m=0;m<32*d.length;m+=8)_+=String.fromCharCode(d[m>>5]>>>m%32&255);return _}function Y(d,_){d[_>>5]|=128<<_%32,d[14+(_+64>>>9<<4)]=_;for(var m=1732584193,f=-271733879,r=-1732584194,i=271733878,n=0;n<d.length;n+=16){var h=m,t=f,g=r,e=i;f=md5_ii(f=md5_ii(f=md5_ii(f=md5_ii(f=md5_hh(f=md5_hh(f=md5_hh(f=md5_hh(f=md5_gg(f=md5_gg(f=md5_gg(f=md5_gg(f=md5_ff(f=md5_ff(f=md5_ff(f=md5_ff(f,r=md5_ff(r,i=md5_ff(i,m=md5_ff(m,f,r,i,d[n+0],7,-680876936),f,r,d[n+1],12,-389564586),m,f,d[n+2],17,606105819),i,m,d[n+3],22,-1044525330),r=md5_ff(r,i=md5_ff(i,m=md5_ff(m,f,r,i,d[n+4],7,-176418897),f,r,d[n+5],12,1200080426),m,f,d[n+6],17,-1473231341),i,m,d[n+7],22,-45705983),r=md5_ff(r,i=md5_ff(i,m=md5_ff(m,f,r,i,d[n+8],7,1770035416),f,r,d[n+9],12,-1958414417),m,f,d[n+10],17,-42063),i,m,d[n+11],22,-1990404162),r=md5_ff(r,i=md5_ff(i,m=md5_ff(m,f,r,i,d[n+12],7,1804603682),f,r,d[n+13],12,-40341101),m,f,d[n+14],17,-1502002290),i,m,d[n+15],22,1236535329),r=md5_gg(r,i=md5_gg(i,m=md5_gg(m,f,r,i,d[n+1],5,-165796510),f,r,d[n+6],9,-1069501632),m,f,d[n+11],14,643717713),i,m,d[n+0],20,-373897302),r=md5_gg(r,i=md5_gg(i,m=md5_gg(m,f,r,i,d[n+5],5,-701558691),f,r,d[n+10],9,38016083),m,f,d[n+15],14,-660478335),i,m,d[n+4],20,-405537848),r=md5_gg(r,i=md5_gg(i,m=md5_gg(m,f,r,i,d[n+9],5,568446438),f,r,d[n+14],9,-1019803690),m,f,d[n+3],14,-187363961),i,m,d[n+8],20,1163531501),r=md5_gg(r,i=md5_gg(i,m=md5_gg(m,f,r,i,d[n+13],5,-1444681467),f,r,d[n+2],9,-51403784),m,f,d[n+7],14,1735328473),i,m,d[n+12],20,-1926607734),r=md5_hh(r,i=md5_hh(i,m=md5_hh(m,f,r,i,d[n+5],4,-378558),f,r,d[n+8],11,-2022574463),m,f,d[n+11],16,1839030562),i,m,d[n+14],23,-35309556),r=md5_hh(r,i=md5_hh(i,m=md5_hh(m,f,r,i,d[n+1],4,-1530992060),f,r,d[n+4],11,1272893353),m,f,d[n+7],16,-155497632),i,m,d[n+10],23,-1094730640),r=md5_hh(r,i=md5_hh(i,m=md5_hh(m,f,r,i,d[n+13],4,681279174),f,r,d[n+0],11,-358537222),m,f,d[n+3],16,-722521979),i,m,d[n+6],23,76029189),r=md5_hh(r,i=md5_hh(i,m=md5_hh(m,f,r,i,d[n+9],4,-640364487),f,r,d[n+12],11,-421815835),m,f,d[n+15],16,530742520),i,m,d[n+2],23,-995338651),r=md5_ii(r,i=md5_ii(i,m=md5_ii(m,f,r,i,d[n+0],6,-198630844),f,r,d[n+7],10,1126891415),m,f,d[n+14],15,-1416354905),i,m,d[n+5],21,-57434055),r=md5_ii(r,i=md5_ii(i,m=md5_ii(m,f,r,i,d[n+12],6,1700485571),f,r,d[n+3],10,-1894986606),m,f,d[n+10],15,-1051523),i,m,d[n+1],21,-2054922799),r=md5_ii(r,i=md5_ii(i,m=md5_ii(m,f,r,i,d[n+8],6,1873313359),f,r,d[n+15],10,-30611744),m,f,d[n+6],15,-1560198380),i,m,d[n+13],21,1309151649),r=md5_ii(r,i=md5_ii(i,m=md5_ii(m,f,r,i,d[n+4],6,-145523070),f,r,d[n+11],10,-1120210379),m,f,d[n+2],15,718787259),i,m,d[n+9],21,-343485551),m=safe_add(m,h),f=safe_add(f,t),r=safe_add(r,g),i=safe_add(i,e)}return Array(m,f,r,i)}function md5_cmn(d,_,m,f,r,i){return safe_add(bit_rol(safe_add(safe_add(_,d),safe_add(f,i)),r),m)}function md5_ff(d,_,m,f,r,i,n){return md5_cmn(_&m|~_&f,d,_,r,i,n)}function md5_gg(d,_,m,f,r,i,n){return md5_cmn(_&f|m&~f,d,_,r,i,n)}function md5_hh(d,_,m,f,r,i,n){return md5_cmn(_^m^f,d,_,r,i,n)}function md5_ii(d,_,m,f,r,i,n){return md5_cmn(m^(_|~f),d,_,r,i,n)}function safe_add(d,_){var m=(65535&d)+(65535&_);return(d>>16)+(_>>16)+(m>>16)<<16|65535&m}function bit_rol(d,_){return d<<_|d>>>32-_}
+			var hash = MD5(email.toLowerCase())
+			return `https://www.gravatar.com/avatar/${hash}`
+		}
+
+		function clickHash() {
+			var hash = window.location.hash
+			if (!hash) return
+
+			var header = document.querySelector(hash)
+
+			if (header !== null) {
+				header.click()
+				header.scrollIntoView()
+			}
+		}
+	</script>
+</body>
+
+</html>
