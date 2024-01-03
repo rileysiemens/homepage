@@ -1,5 +1,16 @@
 videoGames = `[
     {
+        "date": "2023-12-27T00:00:00",
+        "name": "Dredge",
+        "developer": "Black Salt Games",
+        "publisher": "Team17",
+        "platform": "Steam",
+        "price": 27.29,
+        "is_dlc": 0,
+        "is_subscription": 0,
+        "is_console": 0
+    },
+    {
         "date": "2023-10-21T00:00:00",
         "name": "Super Mario Bros. Wonder",
         "developer": "Nintendo",
