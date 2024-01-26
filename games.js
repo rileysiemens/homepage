@@ -1,5 +1,16 @@
 videoGames = `[
     {
+        "date": "2024-01-26T00:00:00",
+        "name": "Slay the Spire",
+        "developer": "Mega Crit",
+        "publisher": "Humble Bundle",
+        "platform": "Steam",
+        "price": 12.17,
+        "is_dlc": 0,
+        "is_subscription": 0,
+        "is_console": 0
+    },
+    {
         "date": "2023-12-27T00:00:00",
         "name": "Dredge",
         "developer": "Black Salt Games",
