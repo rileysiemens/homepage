@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
 	<script type="text/javascript" src="games.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -89,16 +90,28 @@
 				class="space-y-6 max-w-2xl"
 			>
 				<h3 class="text-3xl sm:text-4xl">Neapolitan Pizza Dough</h3>
-				<p class="text-2xl sm:text-3xl">Ingredients <a href="javascript:void(0)" class="text-lg text-neutral-600 hover:text-white" @click="tweaks = ! tweaks">tweak</a></p>
+				<p class="text-2xl sm:text-3xl">Ingredients <a href="javascript:void(0)" class="text-lg text-neutral-500 font-thin hover:text-white hover:underline" @click="tweaks = ! tweaks">tweak</a></p>
 				<div class="ml-8 grid grid-cols-2 gap-2">
-					<div>water</div>
-					<div><span x-text="getWater()"></span>g</div>
-					<div>salt</div>
-					<div><span x-text="getSalt()"></span>g</div>
-					<div>instant yeast</div>
-					<div><span x-text="getYeast()"></span>g</div>
-					<div>bread flour</div>
-					<div><span x-text="getFlour()"></span>g</div>
+					<div class="font-thin">water</div>
+					<div>
+						<span x-text="getWater()"></span>
+						<span class="font-thin">g</span>
+					</div>
+					<div class="font-thin">salt</div>
+					<div>
+						<span x-text="getSalt()"></span>
+						<span class="font-thin">g</span>
+					</div>
+					<div class="font-thin">instant yeast</div>
+					<div>
+						<span x-text="getYeast()"></span>
+						<span class="font-thin">g</span>
+					</div>
+					<div class="font-thin">bread flour</div>
+					<div>
+						<span x-text="getFlour()"></span>
+						<span class="font-thin">g</span>
+					</div>
 				</div>
 				<div x-show="tweaks" x-transition class="flex flex-col gap-6 max-w-lg">
 					<div class="flex flex-col">
@@ -108,11 +121,11 @@
 					<div class="flex flex-col">
 						<p x-text="'Flour Hydration: ' + getHydration()"></p>
 						<input type="range" min="0.5" max="0.7" step="0.01" x-model="hydration" />
-						<p class="text-base text-neutral-400">should between 55% - 63%</p>
+						<p class="text-base font-thin text-neutral-400">should between 55% - 63%</p>
 					</div>
 				</div>
 				<p class="text-2xl sm:text-3xl">Steps</p>
-				<ol class="list-decimal list-inside space-y-4">
+				<ol class="list-decimal list-inside space-y-4 font-thin">
 					<li>
 						Combine water and salt. Mix until dissolved. Then add yeast to mixture (Note: do not let yeast sit in salt mixture long. It will kill the yeast.)
 					</li>
@@ -126,10 +139,10 @@
 						Lightly coat ball with olive oil, and place on a flat surface. Cover with plastic wrap, a cloth, or an upturned mixing bowl. Let it rest for 30 min.
 					</li>
 					<li>
-						After resting, the dough should be much softer & stretchier. If it passes the <a href="https://www.youtube.com/watch?v=FrNI5gHXmNg" class="text-blue-500 hover:underline">window pane test</a> it will make a good pizza.
+						After resting, the dough should be much softer & stretchier. If it passes the <a href="https://www.youtube.com/watch?v=FrNI5gHXmNg" class="text-neutral-500 hover:text-white hover:underline">window pane test</a> it will make a good pizza.
 					</li>
 					<li>
-						Divide into <span x-text="balls"></span> equal dough balls (~<span x-text="getWeight()"></span>g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best). 
+						Divide into <span x-text="balls"></span> equal dough balls (~<span class="font-black" x-text="getWeight()"></span> g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best). 
 					</li>
 					<li>
 						Store dough in the fridge for at least 8 hours, or up to 3 days.
@@ -155,20 +168,38 @@
 				class="space-y-6 max-w-2xl"
 			>
 				<h3 class="text-3xl sm:text-4xl">New York Pizza Dough</h3>
-				<p class="text-3xl">Ingredients <a href="javascript:void(0)" class="text-lg text-neutral-600 hover:text-white" @click="tweaks = ! tweaks">tweak</a></p>
+				<p class="text-3xl">Ingredients <a href="javascript:void(0)" class="text-lg font-thin text-neutral-500 hover:text-white hover:underline" @click="tweaks = ! tweaks">tweak</a></p>
 				<div class="ml-8 grid grid-cols-2 gap-2">
-					<div>water</div>
-					<div><span x-text="getWater()"></span>g</div>
-					<div>salt</div>
-					<div><span x-text="getSalt()"></span>g</div>
-					<div>sugar</div>
-					<div><span x-text="getSugar()"></span>g</div>
-					<div>instant yeast</div>
-					<div><span x-text="getYeast()"></span>g</div>
-					<div>olive oil</div>
-					<div><span x-text="getOil()"></span>g</div>
-					<div>bread flour</div>
-					<div><span x-text="getFlour()"></span>g</div>
+					<div class="font-thin">water</div>
+					<div>
+						<span x-text="getWater()"></span>
+						<span class="font-thin">g</span>
+					</div>
+					<div class="font-thin">salt</div>
+					<div>
+						<span x-text="getSalt()"></span>
+						<span class="font-thin">g</span>
+					</div>
+					<div class="font-thin">sugar</div>
+					<div>
+						<span x-text="getSugar()"></span>
+						<span class="font-thin">g</span>
+					</div>
+					<div class="font-thin">instant yeast</div>
+					<div>
+						<span x-text="getYeast()"></span>
+						<span class="font-thin">g</span>
+					</div>
+					<div class="font-thin">olive oil</div>
+					<div>
+						<span x-text="getOil()"></span>
+						<span class="font-thin">g</span>
+					</div>
+					<div class="font-thin">bread flour</div>
+					<div>
+						<span x-text="getFlour()"></span>
+						<span class="font-thin">g</span>
+					</div>
 				</div>
 				<div x-show="tweaks" x-transition class="flex flex-col gap-6 max-w-lg">
 					<div class="flex flex-col">
@@ -181,7 +212,7 @@
 					</div>
 				</div>
 				<p class="text-3xl">Steps</p>
-				<ol class="list-decimal list-inside space-y-4">
+				<ol class="list-decimal list-inside space-y-4 font-thin">
 					<li>
 						Combine water, salt, and sugar. Mix until dissolved. Then add oil & yeast to mixture (Note: do not let yeast sit in salt mixture long. It will kill the yeast.)
 					</li>
@@ -195,10 +226,10 @@
 						Lightly coat ball with olive oil, and place on a flat surface. Cover with plastic wrap, or with an upturned mixing bowl. Let it rest for 30 min.
 					</li>
 					<li>
-						After resting, the dough should be much softer & stretchier. If it passes the <a href="https://www.youtube.com/watch?v=FrNI5gHXmNg" class="text-blue-500 hover:underline">window pane test</a> it will make a good pizza.
+						After resting, the dough should be much softer & stretchier. If it passes the <a href="https://www.youtube.com/watch?v=FrNI5gHXmNg" class="text-neutral-500 hover:text-white hover:underline">window pane test</a> it will make a good pizza.
 					</li>
 					<li>
-						Divide into <span x-text="balls"></span> equal dough balls (~<span x-text="getWeight()"></span>g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best). 
+						Divide into <span x-text="balls"></span> equal dough balls (~<span class="font-black" x-text="getWeight()"></span> g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best). 
 					</li>
 					<li>
 						Store dough in the fridge for at least 8 hours, or up to 3 days.
@@ -228,13 +259,13 @@
 			class="max-w-2xl space-y-2"
 		>
 			<template x-for="(game, index) in games">
-				<div class="grid grid-cols-12 gap-2">
+				<div class="grid grid-cols-12 items-end sm:gap-2">
 					<template x-if="shouldPrintYear(index)">
 						<h3 class="text-3xl sm:text-4xl col-span-12 mt-8" x-text="getYear(game.date)"></h3>
 					</template>
-					<p class="col-span-2" x-text="getMonthDay(game.date)"></p>
+					<p class="mt-4 col-span-12 font-thin whitespace-nowrap sm:m-0 sm:col-span-2" x-text="getMonthDay(game.date)"></p>
 					<p class="col-span-8" x-text="game.name"></p>
-					<p class="col-span-2 text-right" x-text="getPrice(game)"></p>
+					<p class="col-span-4 font-thin text-right sm:m-0 sm:col-span-2" x-text="getPrice(game)"></p>
 				</div>
 			</template>
 		</div>
