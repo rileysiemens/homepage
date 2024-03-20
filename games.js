@@ -11,17 +11,6 @@ videoGames = `[
         "is_console": 0
     },
     {
-        "date": "2024-03-15T00:00:00",
-        "name": "Red Dead Redemption 2",
-        "developer": "Rockstar Games",
-        "publisher": "Rockstar Games",
-        "platform": "Steam",
-        "price": 29.56,
-        "is_dlc": 0,
-        "is_subscription": 0,
-        "is_console": 0
-    },
-    {
         "date": "2024-01-26T00:00:00",
         "name": "Slay the Spire",
         "developer": "Mega Crit",
