@@ -1,5 +1,16 @@
 videoGames = `[
     {
+        "date": "2024-03-18T00:00:00",
+        "name": "Diablo 4",
+        "developer": "Blizzard Entertainment",
+        "publisher": "Blizzard Entertainment",
+        "platform": "Steam",
+        "price": 50.39,
+        "is_dlc": 0,
+        "is_subscription": 0,
+        "is_console": 0
+    },
+    {
         "date": "2024-03-15T00:00:00",
         "name": "Red Dead Redemption 2",
         "developer": "Rockstar Games",
