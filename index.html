@@ -1,239 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Riley Siemens - Since 1990</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script type="text/javascript" src="games.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
 
-<head>
-	<title>Riley Siemens - Since 1990</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	<link rel="manifest" href="/manifest.json">
-	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
-	<script type="text/javascript" src="games.js"></script>
-	<script type="text/javascript" src="scripts.js"></script>
-	<link rel="stylesheet" href="style.css">
-</head>
+  <body class="text-white font-black text-xl sm:text-2xl tracking-tight">
+    <div class="h-2"></div>
+    <div class="h-4 bg-black rounded-t-2xl"></div>
+    <div
+      class="bg-black min-h-screen flex flex-col items-center gap-16 justify-center p-4 sm:p-20 md:flex-row">
+      <svg
+        class="fill-current shrink-0 w-60"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0, 0, 400,400">
+        <path
+          fill="currentColor"
+          d="M184.181 0.585 C 64.684 11.856,-16.906 117.651,3.159 235.311 C 17.363 318.600,86.368 385.624,170.339 397.690 C 322.068 419.492,440.639 272.480,386.991 129.071 C 356.247 46.887,270.335 -7.541,184.181 0.585 M223.446 28.739 C 340.604 46.578,406.532 169.254,355.715 274.859 C 309.394 371.120,187.287 402.759,100.282 341.043 C 2.951 272.002,2.990 127.969,100.358 58.903 C 135.691 33.840,182.160 22.453,223.446 28.739 M226.919 106.356 C 218.583 125.997,169.301 239.935,169.027 240.202 C 168.816 240.407,146.017 231.867,118.362 221.224 L 68.079 201.874 67.906 200.149 C 67.749 198.578,67.952 198.341,70.166 197.515 C 71.504 197.016,87.218 191.423,105.085 185.086 L 137.571 173.565 137.721 159.099 C 137.804 151.142,137.677 144.626,137.439 144.618 C 137.201 144.610,113.806 153.817,85.452 165.079 L 33.898 185.554 33.898 200.061 C 33.898 211.145,34.065 214.633,34.605 214.842 C 38.345 216.288,157.963 265.151,158.123 265.297 C 158.241 265.405,155.508 272.092,152.050 280.158 C 148.592 288.223,145.763 294.974,145.763 295.160 C 145.763 295.347,152.420 295.431,160.557 295.348 L 175.351 295.198 204.318 227.966 C 223.549 183.330,233.530 160.796,234.015 160.917 C 234.555 161.052,324.911 195.558,331.245 198.049 C 331.974 198.335,332.215 198.930,332.093 200.137 L 331.921 201.825 297.327 214.048 L 262.733 226.271 262.723 240.819 C 262.717 248.821,262.814 255.367,262.938 255.367 C 263.312 255.367,364.610 215.184,365.688 214.608 C 366.608 214.116,366.674 212.962,366.535 199.854 L 366.384 185.634 305.650 160.933 C 272.246 147.348,244.689 136.140,244.412 136.028 C 244.136 135.915,246.773 129.225,250.273 121.160 C 253.773 113.095,256.762 106.052,256.915 105.508 C 257.176 104.585,256.221 104.520,242.446 104.520 L 227.699 104.520 226.919 106.356 "
+          stroke="none"
+          fill-rule="evenodd"></path>
+      </svg>
+      <div>
+        <h1 class="text-4xl text-center xs:text-6xl sm:text-left md:text-8xl">
+          Riley Siemens
+        </h1>
+        <p
+          class="mt-4 text-3xl text-center uppercase tracking-widest font-normal md:text-left md:text-4xl">
+          Since 1990
+        </p>
+      </div>
+    </div>
 
-<body class="text-white font-black text-xl sm:text-2xl font-['Helvetica'] tracking-tight">
-	<div class="h-2"></div>
-	<div class="h-4 bg-black rounded-t-2xl"></div>
-	<div class="bg-black min-h-screen flex flex-col items-center gap-16 justify-center p-4 sm:p-20 md:flex-row">
-		<svg class="fill-current shrink-0 w-60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0, 0, 400,400">
-			<path fill="currentColor" d="M184.181 0.585 C 64.684 11.856,-16.906 117.651,3.159 235.311 C 17.363 318.600,86.368 385.624,170.339 397.690 C 322.068 419.492,440.639 272.480,386.991 129.071 C 356.247 46.887,270.335 -7.541,184.181 0.585 M223.446 28.739 C 340.604 46.578,406.532 169.254,355.715 274.859 C 309.394 371.120,187.287 402.759,100.282 341.043 C 2.951 272.002,2.990 127.969,100.358 58.903 C 135.691 33.840,182.160 22.453,223.446 28.739 M226.919 106.356 C 218.583 125.997,169.301 239.935,169.027 240.202 C 168.816 240.407,146.017 231.867,118.362 221.224 L 68.079 201.874 67.906 200.149 C 67.749 198.578,67.952 198.341,70.166 197.515 C 71.504 197.016,87.218 191.423,105.085 185.086 L 137.571 173.565 137.721 159.099 C 137.804 151.142,137.677 144.626,137.439 144.618 C 137.201 144.610,113.806 153.817,85.452 165.079 L 33.898 185.554 33.898 200.061 C 33.898 211.145,34.065 214.633,34.605 214.842 C 38.345 216.288,157.963 265.151,158.123 265.297 C 158.241 265.405,155.508 272.092,152.050 280.158 C 148.592 288.223,145.763 294.974,145.763 295.160 C 145.763 295.347,152.420 295.431,160.557 295.348 L 175.351 295.198 204.318 227.966 C 223.549 183.330,233.530 160.796,234.015 160.917 C 234.555 161.052,324.911 195.558,331.245 198.049 C 331.974 198.335,332.215 198.930,332.093 200.137 L 331.921 201.825 297.327 214.048 L 262.733 226.271 262.723 240.819 C 262.717 248.821,262.814 255.367,262.938 255.367 C 263.312 255.367,364.610 215.184,365.688 214.608 C 366.608 214.116,366.674 212.962,366.535 199.854 L 366.384 185.634 305.650 160.933 C 272.246 147.348,244.689 136.140,244.412 136.028 C 244.136 135.915,246.773 129.225,250.273 121.160 C 253.773 113.095,256.762 106.052,256.915 105.508 C 257.176 104.585,256.221 104.520,242.446 104.520 L 227.699 104.520 226.919 106.356 " stroke="none" fill-rule="evenodd"></path>
-		</svg>
-		<div>
-			<h1 class="text-4xl text-center xs:text-6xl sm:text-left md:text-8xl">Riley Siemens</h1>
-			<p class="mt-4 text-3xl text-center uppercase tracking-widest font-normal md:text-left md:text-4xl">Since 1990</p>
-		</div>
-	</div>
+    <div x-data="homepageData" class="bg-black min-h-screen p-4 lg:p-20">
+      <div
+        class="flex gap-8 text-3xl mb-20 max-w-[100vw] overflow-x-auto sm:text-4xl overflow-y-clip">
+        <template x-for="(tab, index) in tabs">
+          <a
+            :id="slugify(tab)"
+            href="javascript:void(0)"
+            @click="selectTab(index)"
+            x-text="tab"
+            class="scroll-mt-8 whitespace-nowrap outline-none hover:text-neutral-200"
+            :class="index === currentTab ? 'text-white' : 'text-neutral-500'" />
+        </template>
+      </div>
 
-	<div x-data="homepageData" class="bg-black min-h-screen p-4 lg:p-20">
-		<div class="flex gap-8 text-3xl mb-20 max-w-[100vw] overflow-x-auto sm:text-4xl">
-			<template x-for="(tab, index) in tabs">
-				<a :id="slugify(tab)" href="javascript:void(0)" @click="selectTab(index)" x-text="tab" class="scroll-mt-8 whitespace-nowrap outline-none hover:text-neutral-200" :class="index === currentTab ? 'text-white' : 'text-neutral-500'" />
-			</template>
-		</div>
+      <div
+        x-show="currentTab === 0"
+        x-transition:enter="transition-all duration-300"
+        x-transition:enter-start="opacity-50 translate-x-1/2"
+        x-transition:enter-end="translate-x-0 opacity-100"
+        x-transition:leave="hidden"
+        class="space-y-12 max-w-xl">
+        <img id="gravatar" class="rounded-full border-2 border-neutral-600" />
+        <p>Hello! I'm Riley.</p>
+        <p>
+          You might notice this website doesn't have a lot of useful or
+          interesting content on it.
+        </p>
+        <p>I have no argument against that.</p>
+        <p>
+          It's become a place for me to keep and share
+          <a href="#recipes" class="underline">recipes</a> (like my pizza dough
+          recipe, for example), and a list of all the
+          <a href="#video-games" class="underline">video games</a> I've bought
+          since 2017.
+        </p>
+        <p>
+          This is a good place to share my
+          <a href="#photos" class="underline">photos</a> seeing as I have no
+          social media with which to broadcast my inanity.
+        </p>
+        <p>
+          But the main reason I have this domain is so I can have a custom email
+          address like this:
+          <span class="whitespace-nowrap">
+            hi
+            <span class="after:content-['@']"></span>
+            rileysiemens
+            <span class="after:content-['.']"></span>
+            com
+          </span>
+        </p>
+        <p>Please enjoy!</p>
+      </div>
 
-		<div
-			x-show="currentTab === 0"
-			x-transition:enter="transition-all duration-300"
-			x-transition:enter-start="opacity-50 translate-x-1/2"
-			x-transition:enter-end="translate-x-0 opacity-100"
-			x-transition:leave="hidden"
-			class="space-y-12 max-w-xl"
-		>
-			<img id="gravatar" class="rounded-full border-2 border-neutral-600" />
-			<p>Hello! I'm Riley.</p>
-			<p>You might notice this website doesn't have a lot of useful or interesting content on it.</p>
-			<p>I have no argument against that.</p>
-			<p>It's become a place for me to keep and share <a href="#recipes" class="underline">recipes</a> (like my pizza dough recipe, for example), and a list of all the <a href="#video-games" class="underline">video games</a> I've bought since 2017.</p>
-			<p>This is a good place to share my <a href="#writings" class="underline">writings</a> seeing as I have no social media with which to broadcast inane thoughts.</p>
-			<p>But the main reason I bought this domain was so I could have a custom email address like this:
-				<span class="whitespace-nowrap">
-					hi<span class="after:content-['@']"></span>rileysiemens<span class="after:content-['.']"></span>com.
-				</span>
-			</p>
-			<p>Please enjoy!</p>
-		</div>
+      <!-- Recipes -->
+      <div
+        x-show="currentTab === 1"
+        x-transition:enter="transition-all duration-300"
+        x-transition:enter-start="opacity-50 translate-x-1/2"
+        x-transition:enter-end="translate-x-0 opacity-100"
+        x-transition:leave="hidden"
+        class="space-y-20">
+        <div x-data="neapolitanData" class="space-y-6 max-w-2xl">
+          <h3 class="text-3xl sm:text-4xl">Neapolitan Pizza Dough</h3>
+          <p class="text-2xl sm:text-3xl">
+            Ingredients
+            <a
+              href="javascript:void(0)"
+              class="text-lg text-neutral-500 font-thin hover:text-white hover:underline"
+              @click="tweaks = ! tweaks"
+              >tweak</a
+            >
+          </p>
+          <div class="ml-8 grid grid-cols-2 gap-2">
+            <div class="font-thin">water</div>
+            <div>
+              <span x-text="getWater()"></span>
+              <span class="font-thin">g</span>
+            </div>
+            <div class="font-thin">salt</div>
+            <div>
+              <span x-text="getSalt()"></span>
+              <span class="font-thin">g</span>
+            </div>
+            <div class="font-thin">instant yeast</div>
+            <div>
+              <span x-text="getYeast()"></span>
+              <span class="font-thin">g</span>
+            </div>
+            <div class="font-thin">bread flour</div>
+            <div>
+              <span x-text="getFlour()"></span>
+              <span class="font-thin">g</span>
+            </div>
+          </div>
+          <div
+            x-show="tweaks"
+            x-transition
+            class="flex flex-col gap-6 max-w-lg">
+            <div class="flex flex-col">
+              <p x-text="'dough balls: ' + balls"></p>
+              <input
+                type="range"
+                min="1"
+                max="16"
+                class="bg-white"
+                x-model="balls" />
+            </div>
+            <div class="flex flex-col">
+              <p x-text="'Flour Hydration: ' + getHydration()"></p>
+              <input
+                type="range"
+                min="0.5"
+                max="0.7"
+                step="0.01"
+                x-model="hydration" />
+              <p class="text-base font-thin text-neutral-400">
+                should between 55% - 63%
+              </p>
+            </div>
+          </div>
+          <p class="text-2xl sm:text-3xl">Steps</p>
+          <ol class="list-decimal list-inside space-y-4 font-thin">
+            <li>
+              Combine water and salt. Mix until dissolved. Then add yeast to
+              mixture (Note: do not let yeast sit in salt mixture long. It will
+              kill the yeast.)
+            </li>
+            <li>
+              Add flour to mixture and mix until it forms a rough dough.
+              Continue to knead until it forms a tight dough (around 10
+              minutes).
+            </li>
+            <li>
+              Remove the dough from the mixing bowl and use your hands to form a
+              tight dough ball. It should spring back when pressed.
+            </li>
+            <li>
+              Lightly coat ball with olive oil, and place on a flat surface.
+              Cover with plastic wrap, a cloth, or an upturned mixing bowl. Let
+              it rest for 30 min.
+            </li>
+            <li>
+              After resting, the dough should be much softer & stretchier. If it
+              passes the
+              <a
+                href="https://www.youtube.com/watch?v=FrNI5gHXmNg"
+                class="text-neutral-500 hover:text-white hover:underline"
+                >window pane test</a
+              >
+              it will make a good pizza.
+            </li>
+            <li>
+              Divide into <span x-text="balls"></span> equal dough balls (~<span
+                class="font-black"
+                x-text="getWeight()"></span>
+              g each). Put each ball into a lightly oiled, airtight container
+              that will allow for some expansion (~1L containers work best).
+            </li>
+            <li>
+              Store dough in the fridge for at least 8 hours, or up to 3 days.
+            </li>
+          </ol>
+        </div>
 
-		<!-- Recipes -->
-		<div
-			x-show="currentTab === 1"
-			x-transition:enter="transition-all duration-300"
-			x-transition:enter-start="opacity-50 translate-x-1/2"
-			x-transition:enter-end="translate-x-0 opacity-100"
-			x-transition:leave="hidden"
-			class="space-y-20"
-		>
-			<div x-data="neapolitanData" class="space-y-6 max-w-2xl">
-				<h3 class="text-3xl sm:text-4xl">Neapolitan Pizza Dough</h3>
-				<p class="text-2xl sm:text-3xl">Ingredients <a href="javascript:void(0)" class="text-lg text-neutral-500 font-thin hover:text-white hover:underline" @click="tweaks = ! tweaks">tweak</a></p>
-				<div class="ml-8 grid grid-cols-2 gap-2">
-					<div class="font-thin">water</div>
-					<div>
-						<span x-text="getWater()"></span>
-						<span class="font-thin">g</span>
-					</div>
-					<div class="font-thin">salt</div>
-					<div>
-						<span x-text="getSalt()"></span>
-						<span class="font-thin">g</span>
-					</div>
-					<div class="font-thin">instant yeast</div>
-					<div>
-						<span x-text="getYeast()"></span>
-						<span class="font-thin">g</span>
-					</div>
-					<div class="font-thin">bread flour</div>
-					<div>
-						<span x-text="getFlour()"></span>
-						<span class="font-thin">g</span>
-					</div>
-				</div>
-				<div x-show="tweaks" x-transition class="flex flex-col gap-6 max-w-lg">
-					<div class="flex flex-col">
-						<p x-text="'dough balls: ' + balls"></p>
-						<input type="range" min="1" max="16" class="bg-white" x-model="balls" />
-					</div>
-					<div class="flex flex-col">
-						<p x-text="'Flour Hydration: ' + getHydration()"></p>
-						<input type="range" min="0.5" max="0.7" step="0.01" x-model="hydration" />
-						<p class="text-base font-thin text-neutral-400">should between 55% - 63%</p>
-					</div>
-				</div>
-				<p class="text-2xl sm:text-3xl">Steps</p>
-				<ol class="list-decimal list-inside space-y-4 font-thin">
-					<li>
-						Combine water and salt. Mix until dissolved. Then add yeast to mixture (Note: do not let yeast sit in salt mixture long. It will kill the yeast.)
-					</li>
-					<li>
-						Add flour to mixture and mix until it forms a rough dough. Continue to knead until it forms a tight dough (around 10 minutes).
-					</li>
-					<li>
-						Remove the dough from the mixing bowl and use your hands to form a tight dough ball. It should spring back when pressed.
-					</li>
-					<li>
-						Lightly coat ball with olive oil, and place on a flat surface. Cover with plastic wrap, a cloth, or an upturned mixing bowl. Let it rest for 30 min.
-					</li>
-					<li>
-						After resting, the dough should be much softer & stretchier. If it passes the <a href="https://www.youtube.com/watch?v=FrNI5gHXmNg" class="text-neutral-500 hover:text-white hover:underline">window pane test</a> it will make a good pizza.
-					</li>
-					<li>
-						Divide into <span x-text="balls"></span> equal dough balls (~<span class="font-black" x-text="getWeight()"></span> g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best).
-					</li>
-					<li>
-						Store dough in the fridge for at least 8 hours, or up to 3 days.
-					</li>
-				</ol>
-			</div>
+        <div x-data="newYorkData" class="space-y-6 max-w-2xl">
+          <h3 class="text-3xl sm:text-4xl">New York Pizza Dough</h3>
+          <p class="text-3xl">
+            Ingredients
+            <a
+              href="javascript:void(0)"
+              class="text-lg font-thin text-neutral-500 hover:text-white hover:underline"
+              @click="tweaks = ! tweaks"
+              >tweak</a
+            >
+          </p>
+          <div class="ml-8 grid grid-cols-2 gap-2">
+            <div class="font-thin">water</div>
+            <div>
+              <span x-text="getWater()"></span>
+              <span class="font-thin">g</span>
+            </div>
+            <div class="font-thin">salt</div>
+            <div>
+              <span x-text="getSalt()"></span>
+              <span class="font-thin">g</span>
+            </div>
+            <div class="font-thin">sugar</div>
+            <div>
+              <span x-text="getSugar()"></span>
+              <span class="font-thin">g</span>
+            </div>
+            <div class="font-thin">instant yeast</div>
+            <div>
+              <span x-text="getYeast()"></span>
+              <span class="font-thin">g</span>
+            </div>
+            <div class="font-thin">olive oil</div>
+            <div>
+              <span x-text="getOil()"></span>
+              <span class="font-thin">g</span>
+            </div>
+            <div class="font-thin">bread flour</div>
+            <div>
+              <span x-text="getFlour()"></span>
+              <span class="font-thin">g</span>
+            </div>
+          </div>
+          <div
+            x-show="tweaks"
+            x-transition
+            class="flex flex-col gap-6 max-w-lg">
+            <div class="flex flex-col">
+              <p x-text="'dough balls: ' + balls"></p>
+              <input
+                type="range"
+                min="1"
+                max="16"
+                class="bg-white"
+                x-model="balls" />
+            </div>
+            <div class="flex flex-col">
+              <p x-text="'Flour Hydration: ' + getHydration()"></p>
+              <input
+                type="range"
+                min="0.5"
+                max="0.7"
+                step="0.01"
+                x-model="hydration" />
+            </div>
+          </div>
+          <p class="text-3xl">Steps</p>
+          <ol class="list-decimal list-inside space-y-4 font-thin">
+            <li>
+              Combine water, salt, and sugar. Mix until dissolved. Then add oil
+              & yeast to mixture (Note: do not let yeast sit in salt mixture
+              long. It will kill the yeast.)
+            </li>
+            <li>
+              Add flour to mixture and mix until it forms a rough dough.
+              Continue to knead until it forms a tight dough (around 10
+              minutes).
+            </li>
+            <li>
+              Remove the dough from the mixing bowl and use your hands to form a
+              tight dough ball. It should spring back when pressed.
+            </li>
+            <li>
+              Lightly coat ball with olive oil, and place on a flat surface.
+              Cover with plastic wrap, or with an upturned mixing bowl. Let it
+              rest for 30 min.
+            </li>
+            <li>
+              After resting, the dough should be much softer & stretchier. If it
+              passes the
+              <a
+                href="https://www.youtube.com/watch?v=FrNI5gHXmNg"
+                class="text-neutral-500 hover:text-white hover:underline"
+                >window pane test</a
+              >
+              it will make a good pizza.
+            </li>
+            <li>
+              Divide into <span x-text="balls"></span> equal dough balls (~<span
+                class="font-black"
+                x-text="getWeight()"></span>
+              g each). Put each ball into a lightly oiled, airtight container
+              that will allow for some expansion (~1L containers work best).
+            </li>
+            <li>
+              Store dough in the fridge for at least 8 hours, or up to 3 days.
+            </li>
+          </ol>
+        </div>
+      </div>
 
-			<div x-data="newYorkData" class="space-y-6 max-w-2xl">
-				<h3 class="text-3xl sm:text-4xl">New York Pizza Dough</h3>
-				<p class="text-3xl">Ingredients <a href="javascript:void(0)" class="text-lg font-thin text-neutral-500 hover:text-white hover:underline" @click="tweaks = ! tweaks">tweak</a></p>
-				<div class="ml-8 grid grid-cols-2 gap-2">
-					<div class="font-thin">water</div>
-					<div>
-						<span x-text="getWater()"></span>
-						<span class="font-thin">g</span>
-					</div>
-					<div class="font-thin">salt</div>
-					<div>
-						<span x-text="getSalt()"></span>
-						<span class="font-thin">g</span>
-					</div>
-					<div class="font-thin">sugar</div>
-					<div>
-						<span x-text="getSugar()"></span>
-						<span class="font-thin">g</span>
-					</div>
-					<div class="font-thin">instant yeast</div>
-					<div>
-						<span x-text="getYeast()"></span>
-						<span class="font-thin">g</span>
-					</div>
-					<div class="font-thin">olive oil</div>
-					<div>
-						<span x-text="getOil()"></span>
-						<span class="font-thin">g</span>
-					</div>
-					<div class="font-thin">bread flour</div>
-					<div>
-						<span x-text="getFlour()"></span>
-						<span class="font-thin">g</span>
-					</div>
-				</div>
-				<div x-show="tweaks" x-transition class="flex flex-col gap-6 max-w-lg">
-					<div class="flex flex-col">
-						<p x-text="'dough balls: ' + balls"></p>
-						<input type="range" min="1" max="16" class="bg-white" x-model="balls" />
-					</div>
-					<div class="flex flex-col">
-						<p x-text="'Flour Hydration: ' + getHydration()"></p>
-						<input type="range" min="0.5" max="0.7" step="0.01" x-model="hydration" />
-					</div>
-				</div>
-				<p class="text-3xl">Steps</p>
-				<ol class="list-decimal list-inside space-y-4 font-thin">
-					<li>
-						Combine water, salt, and sugar. Mix until dissolved. Then add oil & yeast to mixture (Note: do not let yeast sit in salt mixture long. It will kill the yeast.)
-					</li>
-					<li>
-						Add flour to mixture and mix until it forms a rough dough. Continue to knead until it forms a tight dough (around 10 minutes).
-					</li>
-					<li>
-						Remove the dough from the mixing bowl and use your hands to form a tight dough ball. It should spring back when pressed.
-					</li>
-					<li>
-						Lightly coat ball with olive oil, and place on a flat surface. Cover with plastic wrap, or with an upturned mixing bowl. Let it rest for 30 min.
-					</li>
-					<li>
-						After resting, the dough should be much softer & stretchier. If it passes the <a href="https://www.youtube.com/watch?v=FrNI5gHXmNg" class="text-neutral-500 hover:text-white hover:underline">window pane test</a> it will make a good pizza.
-					</li>
-					<li>
-						Divide into <span x-text="balls"></span> equal dough balls (~<span class="font-black" x-text="getWeight()"></span> g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best).
-					</li>
-					<li>
-						Store dough in the fridge for at least 8 hours, or up to 3 days.
-					</li>
-				</ol>
-			</div>
-		</div>
+      <!-- Video Games -->
+      <div
+        x-data="videoGamesData"
+        x-show="currentTab === 2"
+        x-transition:enter="transition-all duration-300"
+        x-transition:enter-start="opacity-50 translate-x-1/2"
+        x-transition:enter-end="translate-x-0 opacity-100"
+        x-transition:leave="hidden"
+        class="max-w-2xl">
+        <template x-for="(game, index) in games">
+          <div class="grid grid-cols-12 items-end sm:gap-2">
+            <template x-if="shouldPrintYear(index)">
+              <h3
+                class="text-3xl sm:text-4xl col-span-12 mt-8"
+                x-text="getYear(game.date)"></h3>
+            </template>
+            <p
+              class="mt-4 col-span-12 font-thin whitespace-nowrap sm:m-0 sm:col-span-2"
+              x-text="getMonthDay(game.date)"></p>
+            <p class="col-span-8" x-text="game.name"></p>
+            <p
+              class="col-span-4 font-thin text-right sm:m-0 sm:col-span-2"
+              x-text="getPrice(game)"></p>
+          </div>
+        </template>
+      </div>
 
-		<!-- Video Games -->
-		<div
-			x-data="videoGamesData"
-			x-show="currentTab === 2"
-			x-transition:enter="transition-all duration-300"
-			x-transition:enter-start="opacity-50 translate-x-1/2"
-			x-transition:enter-end="translate-x-0 opacity-100"
-			x-transition:leave="hidden"
-			class="max-w-2xl"
-		>
-			<template x-for="(game, index) in games">
-				<div class="grid grid-cols-12 items-end sm:gap-2">
-					<template x-if="shouldPrintYear(index)">
-						<h3 class="text-3xl sm:text-4xl col-span-12 mt-8" x-text="getYear(game.date)"></h3>
-					</template>
-					<p class="mt-4 col-span-12 font-thin whitespace-nowrap sm:m-0 sm:col-span-2" x-text="getMonthDay(game.date)"></p>
-					<p class="col-span-8" x-text="game.name"></p>
-					<p class="col-span-4 font-thin text-right sm:m-0 sm:col-span-2" x-text="getPrice(game)"></p>
-				</div>
-			</template>
-		</div>
+      <!-- photos -->
+      <div
+        x-show="currentTab === 3"
+        x-transition:enter="transition-all duration-300"
+        x-transition:enter-start="opacity-50 translate-x-1/2"
+        x-transition:enter-end="translate-x-0 opacity-100"
+        x-transition:leave="hidden">
+        Coming Soon
+      </div>
+    </div>
 
-		<!-- Writings -->
-		<div
-			x-show="currentTab === 3"
-			x-transition:enter="transition-all duration-300"
-			x-transition:enter-start="opacity-50 translate-x-1/2"
-			x-transition:enter-end="translate-x-0 opacity-100"
-			x-transition:leave="hidden"
-		>
-			Coming Soon
-		</div>
-	</div>
-
-	<div class="h-4 bg-black rounded-b-2xl"></div>
-	<div class="h-2"></div>
-</body>
+    <div class="h-4 bg-black rounded-b-2xl"></div>
+    <div class="h-2"></div>
+  </body>
 </html>

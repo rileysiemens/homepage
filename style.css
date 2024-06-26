@@ -1,4 +1,4 @@
-/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */*,
+/* ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com */*,
 ::after,
 ::before {
   box-sizing:border-box;
@@ -426,6 +426,9 @@ video {
 .overflow-x-auto {
   overflow-x:auto
 }
+.overflow-y-clip {
+  overflow-y:clip
+}
 .whitespace-nowrap {
   white-space:nowrap
 }
@@ -466,9 +469,6 @@ video {
 }
 .text-right {
   text-align:right
-}
-.font-\[\'Helvetica\'\] {
-  font-family:'Helvetica'
 }
 .text-2xl {
   font-size:1.5rem;
