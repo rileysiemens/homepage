@@ -24,10 +24,11 @@ const homepageData = () => ({
 			.replaceAll(" ", "-"); // replace all spaces with hyphen
 	},
 
-	clickHash: function() {
+	clickHash: async function() {
 		var hash = window.location.hash
 		if (!hash) return
 
+		await this.$nextTick()
 		var header = document.querySelector(hash)
 
 		if (header !== null) {
@@ -77,4 +78,44 @@ const videoGamesData = () => ({
 		var date = new Date(dateString);
 		return date.getFullYear();
 	},
+})
+
+const photoData = () => ({
+	photos,
+
+	photosByDate: function() {
+		return this.photos.sort((a, b) => new Date(b.date) - new Date(a.date));
+	},
+
+	relativeDate: function(photo) {
+		const now = new Date()
+		const date = new Date(photo.date)
+		const diff = Math.floor((now - date) / 1000)
+	
+		const intervals = [
+			{ label: 'year', seconds: 31536000 },
+			{ label: 'month', seconds: 2592000 },
+			{ label: 'week', seconds: 604800 },
+			{ label: 'day', seconds: 86400 },
+			{ label: 'hour', seconds: 3600 },
+			{ label: 'minute', seconds: 60 },
+			{ label: 'second', seconds: 1 }
+		]
+	
+		for (let i = 0; i < intervals.length; i++) {
+			const interval = Math.floor(diff / intervals[i].seconds)
+			if (interval >= 1) {
+				if (i === 0 && interval > 3) {
+					return date.toLocaleDateString('en-US', {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric'
+					})
+				}
+				return interval + ' ' + intervals[i].label + (interval !== 1 ? 's' : '') + ' ago'
+			}
+		}
+	
+		return 'just now'
+	}
 })

@@ -4,7 +4,7 @@
 		<title>Riley Siemens - Since 1990</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
 
 		<!-- Alpine -->
 		<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -15,10 +15,10 @@
 		<!-- <link rel="stylesheet" href="style.css" /> -->
 
 		<!-- Custom Scripts -->
-		<script type="text/javascript" src="games.js"></script>
-		<script type="text/javascript" src="recipes.js"></script>
-		<script type="text/javascript" src="photos.js"></script>
-		<script type="text/javascript" src="scripts.js"></script>
+		<script type="text/javascript" src="/js/games.js"></script>
+		<script type="text/javascript" src="/js/recipes.js"></script>
+		<script type="text/javascript" src="/js/photos.js"></script>
+		<script type="text/javascript" src="/js/scripts.js"></script>
 
 		<!-- Custom Style -->
 		<style>
@@ -49,7 +49,8 @@
 		<div x-data="homepageData" class="bg-black min-h-screen p-4 lg:p-20">
 			<div class="flex gap-8 text-3xl mb-20 max-w-[100vw] overflow-x-auto sm:text-4xl overflow-y-clip">
 				<template x-for="(tab, index) in tabs">
-					<button class="scroll-mt-8 whitespace-nowrap outline-none hover:text-neutral-200"
+					<button
+						class="scroll-mt-8 whitespace-nowrap outline-none hover:text-neutral-200"
 						x-on:click="selectTab(index)"
 						x-text="tab"
 						x-bind:id="slugify(tab)"
@@ -95,13 +96,13 @@
 
 			<!-- Recipes -->
 			<div
+				class="max-w-2xl space-y-8"
 				x-show="currentTab === 1"
 				x-transition:enter="transition-all duration-300"
 				x-transition:enter-start="opacity-50 translate-x-1/2"
 				x-transition:enter-end="translate-x-0 opacity-100"
 				x-transition:leave="hidden"
 				x-data="{ recipes }" 
-				class="max-w-2xl space-y-8"
 			>
 				<template x-for="recipe in recipes">
 					<div x-data="{ show: false, tweak: false, servings: 4 }">
@@ -110,7 +111,7 @@
 							x-bind:class="show ? 'text-3xl sm:text-4xl text-white' : 'text-neutral-500 text-2xl'"
 							x-on:click="show = ! show"
 						>
-							<span x-text="recipe.name"></span>
+							<span class="text-left" x-text="recipe.name"></span>
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" >
 								<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" x-show="!show"/>
 								<path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" x-show="show"/>
@@ -146,13 +147,13 @@
 
 			<!-- Video Games -->
 			<div
-				x-data="videoGamesData"
+				class="max-w-2xl"
 				x-show="currentTab === 2"
 				x-transition:enter="transition-all duration-300"
 				x-transition:enter-start="opacity-50 translate-x-1/2"
 				x-transition:enter-end="translate-x-0 opacity-100"
 				x-transition:leave="hidden"
-				class="max-w-2xl"
+				x-data="videoGamesData"
 			>
 				<template x-for="(game, index) in games">
 					<div class="grid grid-cols-12 items-end sm:gap-2">
@@ -172,8 +173,26 @@
 				x-transition:enter="transition-all duration-300"
 				x-transition:enter-start="opacity-50 translate-x-1/2"
 				x-transition:enter-end="translate-x-0 opacity-100"
-				x-transition:leave="hidden">
-				Coming Soon
+				x-transition:leave="hidden"
+				x-data="photoData"
+			>
+				<div class="grid grid-cols-3 grid-flow-row max-w-5xl gap-1">
+					<template x-for="photo in photosByDate">
+						<div class="cursor-pointer w-full aspect-square group" x-data="{ enlarge: false }" x-on:click="enlarge = ! enlarge" x-bind:class="{
+							'overflow-hidden': !enlarge,
+							'bg-black w-screen h-screen overflow-auto fixed inset-0 p-2 lg:p-4': enlarge,
+						}">
+							<img x-bind:class="{ 
+								'w-full aspect-square object-cover object-center transition-scale duration-150 group-hover:scale-105': !enlarge,
+								'mx-auto w-full max-h-screen object-contain': enlarge,
+							}" x-bind:src="photo.src" x-bind:title="photo.caption" />
+							<div class="w-full font-normal mx-auto max-w-xl my-4 space-y-2" x-show="enlarge" x-cloak>
+								<p x-text="photo.caption"></p>
+								<p class="text-neutral-500" x-text="relativeDate(photo)"></p>
+							</div>
+						</div>
+					</template>
+				</div>
 			</div>
 		</div>
 
