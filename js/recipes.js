@@ -29,8 +29,10 @@ recipes = [
 			"Remove the dough from the mixing bowl and use your hands to form a tight dough ball. It should spring back when pressed.",
 			"Lightly coat ball with olive oil, and place on a flat surface. Cover with plastic wrap, a cloth, or an upturned mixing bowl. Let it rest for 30 min.",
 			"After resting, the dough should be much softer & stretchier. If it passes the window pane test it will make a good pizza.",
-			"Divide into equal dough balls (~236 g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best).",
-			"Store dough in the fridge for at least 8 hours, or up to 3 days."
+			"Divide into equal dough balls (one per serving) approximately 236g each. Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best).",
+			"Store dough in the fridge for at least 8 hours, or up to 3 days.",
+			"When ready to bake, put pizza stone or steel into oven and preheat has hot as possible. Let the dough warm up to room temperature. Stretch dough by hand, and top as desired.",
+			"Use pizza peel to transfer pizza onto heated stone/steel. Bake for 3 to 5 min until bottom crust is firm & browned, and the cornicione has leopard spots."
 		]
 	},
 	{
@@ -73,8 +75,10 @@ recipes = [
 			"Remove the dough from the mixing bowl and use your hands to form a tight dough ball. It should spring back when pressed.",
 			"Lightly coat ball with olive oil, and place on a flat surface. Cover with plastic wrap, a cloth, or an upturned mixing bowl. Let it rest for 30 min.",
 			"After resting, the dough should be much softer & stretchier. If it passes the window pane test it will make a good pizza.",
-			"Divide into 4 equal dough balls (~236 g each). Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best).",
-			"Store dough in the fridge for at least 8 hours, or up to 3 days."
+			"Divide into equal dough balls (one per serving) approximately 287g each. Put each ball into a lightly oiled, airtight container that will allow for some expansion (~1L containers work best).",
+			"Store dough in the fridge for at least 8 hours, or up to 3 days.",
+			"When ready to bake, put pizza stone or steel into oven and preheat has hot as possible. Let the dough warm up to room temperature. Stretch dough by hand, and top as desired.",
+			"Use pizza peel to transfer pizza onto heated stone/steel. Bake for 3 to 5 min until crust is browned but not black."
 		]
 	}
 ]
