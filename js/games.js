@@ -1,5 +1,16 @@
 videoGames = [
 	{
+		"date": "2024-08-29T00:00:00",
+		"name": "The Outer Worlds",
+		"developer": "Obsidian Entertainment",
+		"publisher": "Private Division",
+		"platform": "Steam",
+		"price": 35.82,
+		"is_dlc": 0,
+		"is_subscription": 0,
+		"is_console": 0
+	},
+	{
 		"date": "2024-03-18T00:00:00",
 		"name": "Diablo 4",
 		"developer": "Blizzard Entertainment",
