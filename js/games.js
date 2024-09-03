@@ -1,5 +1,29 @@
 videoGames = [
 	{
+		"date": "2024-08-31T00:00:00",
+		"name": "Boomerang Fu - Fresh Flavors Pack",
+		"developer": "Cranky Watermelon",
+		"publisher": "Cranky Watermelon",
+		"platform": "Switch",
+		"price": 4.18,
+		"is_dlc": 1,
+		"is_subscription": 0,
+		"is_console": 0,
+		"is_gift": 1
+	},
+	{
+		"date": "2024-08-31T00:00:00",
+		"name": "Boomerang Fu - Just Desserts DLC",
+		"developer": "Cranky Watermelon",
+		"publisher": "Cranky Watermelon",
+		"platform": "Switch",
+		"price": 6.81,
+		"is_dlc": 1,
+		"is_subscription": 0,
+		"is_console": 0,
+		"is_gift": 1
+	},
+	{
 		"date": "2024-08-29T00:00:00",
 		"name": "The Outer Worlds",
 		"developer": "Obsidian Entertainment",
@@ -8,7 +32,8 @@ videoGames = [
 		"price": 35.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2024-03-18T00:00:00",
@@ -19,7 +44,8 @@ videoGames = [
 		"price": 50.39,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2024-01-26T00:00:00",
@@ -30,7 +56,8 @@ videoGames = [
 		"price": 12.17,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-12-27T00:00:00",
@@ -41,7 +68,8 @@ videoGames = [
 		"price": 27.29,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-10-21T00:00:00",
@@ -52,7 +80,8 @@ videoGames = [
 		"price": 83.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-10-06T00:00:00",
@@ -63,7 +92,8 @@ videoGames = [
 		"price": 59.12,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-09-08T00:00:00",
@@ -74,7 +104,8 @@ videoGames = [
 		"price": 25.52,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-07-08T00:00:00",
@@ -85,7 +116,8 @@ videoGames = [
 		"price": 43.67,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-06-24T00:00:00",
@@ -96,7 +128,8 @@ videoGames = [
 		"price": 15.31,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-05-12T00:00:00",
@@ -107,7 +140,8 @@ videoGames = [
 		"price": 94.49,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-04-22T00:00:00",
@@ -118,7 +152,8 @@ videoGames = [
 		"price": 5.36,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-04-07T00:00:00",
@@ -129,7 +164,8 @@ videoGames = [
 		"price": 29.11,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-02-23T00:00:00",
@@ -140,7 +176,8 @@ videoGames = [
 		"price": 28.59,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2023-01-01T00:00:00",
@@ -151,7 +188,8 @@ videoGames = [
 		"price": 52.49,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-12-22T00:00:00",
@@ -162,7 +200,8 @@ videoGames = [
 		"price": 12.76,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-12-12T00:00:00",
@@ -173,7 +212,8 @@ videoGames = [
 		"price": 4.85,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-12-02T00:00:00",
@@ -184,7 +224,8 @@ videoGames = [
 		"price": 558.88,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 1
+		"is_console": 1,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-12-01T00:00:00",
@@ -195,7 +236,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-11-01T00:00:00",
@@ -206,7 +248,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-09-30T00:00:00",
@@ -217,7 +260,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-08-29T00:00:00",
@@ -228,7 +272,8 @@ videoGames = [
 		"price": 1.12,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-07-03T00:00:00",
@@ -239,7 +284,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-06-15T00:00:00",
@@ -250,7 +296,8 @@ videoGames = [
 		"price": 5.49,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-05-21T00:00:00",
@@ -261,7 +308,8 @@ videoGames = [
 		"price": 18.8,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-05-01T00:00:00",
@@ -272,7 +320,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-04-07T00:00:00",
@@ -283,7 +332,8 @@ videoGames = [
 		"price": 34.64,
 		"is_dlc": 1,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 1
 	},
 	{
 		"date": "2022-04-01T00:00:00",
@@ -294,7 +344,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-02-28T00:00:00",
@@ -305,7 +356,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-02-28T00:00:00",
@@ -316,7 +368,8 @@ videoGames = [
 		"price": 89.59,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-02-01T00:00:00",
@@ -327,7 +380,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2022-01-01T00:00:00",
@@ -338,7 +392,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-12-01T00:00:00",
@@ -349,7 +404,8 @@ videoGames = [
 		"price": 13.09,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-11-30T00:00:00",
@@ -360,7 +416,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-10-30T00:00:00",
@@ -371,7 +428,8 @@ videoGames = [
 		"price": 50,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-10-29T00:00:00",
@@ -382,7 +440,8 @@ videoGames = [
 		"price": 1.12,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-10-21T00:00:00",
@@ -393,7 +452,8 @@ videoGames = [
 		"price": 48.29,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-09-17T00:00:00",
@@ -404,7 +464,8 @@ videoGames = [
 		"price": 83.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-07-06T00:00:00",
@@ -415,7 +476,8 @@ videoGames = [
 		"price": 21.3,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-06-12T00:00:00",
@@ -426,7 +488,8 @@ videoGames = [
 		"price": 20.89,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-05-14T00:00:00",
@@ -437,7 +500,8 @@ videoGames = [
 		"price": 34.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-04-12T00:00:00",
@@ -448,7 +512,8 @@ videoGames = [
 		"price": 5.32,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-03-06T00:00:00",
@@ -459,7 +524,8 @@ videoGames = [
 		"price": 16.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-02-24T00:00:00",
@@ -470,7 +536,8 @@ videoGames = [
 		"price": 22.79,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-02-13T00:00:00",
@@ -481,7 +548,8 @@ videoGames = [
 		"price": 22.38,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-01-30T00:00:00",
@@ -492,7 +560,8 @@ videoGames = [
 		"price": 1.12,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-01-23T00:00:00",
@@ -503,7 +572,8 @@ videoGames = [
 		"price": 11.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-01-20T00:00:00",
@@ -514,7 +584,8 @@ videoGames = [
 		"price": 4.47,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-01-01T00:00:00",
@@ -525,7 +596,8 @@ videoGames = [
 		"price": 9.38,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-01-01T00:00:00",
@@ -536,7 +608,8 @@ videoGames = [
 		"price": 29.79,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2021-01-01T00:00:00",
@@ -547,7 +620,8 @@ videoGames = [
 		"price": 26.79,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-12-22T00:00:00",
@@ -558,7 +632,8 @@ videoGames = [
 		"price": 51.74,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-12-13T00:00:00",
@@ -569,7 +644,8 @@ videoGames = [
 		"price": 34.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-12-07T00:00:00",
@@ -580,7 +656,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-12-06T00:00:00",
@@ -591,7 +668,8 @@ videoGames = [
 		"price": 26.24,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-30T00:00:00",
@@ -602,7 +680,8 @@ videoGames = [
 		"price": 34.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-27T00:00:00",
@@ -613,7 +692,8 @@ videoGames = [
 		"price": 448.21,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 1
+		"is_console": 1,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-14T00:00:00",
@@ -624,7 +704,8 @@ videoGames = [
 		"price": 2.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-14T00:00:00",
@@ -635,7 +716,8 @@ videoGames = [
 		"price": 2.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-14T00:00:00",
@@ -646,7 +728,8 @@ videoGames = [
 		"price": 2.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-14T00:00:00",
@@ -657,7 +740,8 @@ videoGames = [
 		"price": 2.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-14T00:00:00",
@@ -668,7 +752,8 @@ videoGames = [
 		"price": 2.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-14T00:00:00",
@@ -679,7 +764,8 @@ videoGames = [
 		"price": 2.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-14T00:00:00",
@@ -690,7 +776,8 @@ videoGames = [
 		"price": 2.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-14T00:00:00",
@@ -701,7 +788,8 @@ videoGames = [
 		"price": 2.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-11-07T00:00:00",
@@ -712,7 +800,8 @@ videoGames = [
 		"price": 13.43,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-10-07T00:00:00",
@@ -723,7 +812,8 @@ videoGames = [
 		"price": 12.99,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-09-29T00:00:00",
@@ -734,7 +824,8 @@ videoGames = [
 		"price": 20.51,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-09-07T00:00:00",
@@ -745,7 +836,8 @@ videoGames = [
 		"price": 6.71,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-08-07T00:00:00",
@@ -756,7 +848,8 @@ videoGames = [
 		"price": 1,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-08-04T00:00:00",
@@ -767,7 +860,8 @@ videoGames = [
 		"price": 22.79,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-07-04T00:00:00",
@@ -778,7 +872,8 @@ videoGames = [
 		"price": 6.71,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-06-17T00:00:00",
@@ -789,7 +884,8 @@ videoGames = [
 		"price": 79.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-05-20T00:00:00",
@@ -800,7 +896,8 @@ videoGames = [
 		"price": 83.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-04-11T00:00:00",
@@ -811,7 +908,8 @@ videoGames = [
 		"price": 33.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-04-05T00:00:00",
@@ -822,7 +920,8 @@ videoGames = [
 		"price": 42.73,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-03-20T00:00:00",
@@ -833,7 +932,8 @@ videoGames = [
 		"price": 69.59,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-02-24T00:00:00",
@@ -844,7 +944,8 @@ videoGames = [
 		"price": 6.81,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2020-01-04T00:00:00",
@@ -855,7 +956,8 @@ videoGames = [
 		"price": 83.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-12-25T00:00:00",
@@ -866,7 +968,8 @@ videoGames = [
 		"price": 19.79,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-12-23T00:00:00",
@@ -877,7 +980,8 @@ videoGames = [
 		"price": 19.03,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-09-08T00:00:00",
@@ -888,7 +992,8 @@ videoGames = [
 		"price": 2,
 		"is_dlc": 0,
 		"is_subscription": 1,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-09-02T00:00:00",
@@ -899,7 +1004,8 @@ videoGames = [
 		"price": 23.31,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-07-24T00:00:00",
@@ -910,7 +1016,8 @@ videoGames = [
 		"price": 6.66,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-06-23T00:00:00",
@@ -921,7 +1028,8 @@ videoGames = [
 		"price": 87.82,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-06-16T00:00:00",
@@ -932,7 +1040,8 @@ videoGames = [
 		"price": 20.29,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-06-09T00:00:00",
@@ -943,7 +1052,8 @@ videoGames = [
 		"price": 39.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-06-01T00:00:00",
@@ -954,7 +1064,8 @@ videoGames = [
 		"price": 6.49,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-04-13T00:00:00",
@@ -965,7 +1076,8 @@ videoGames = [
 		"price": 21.69,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-03-26T00:00:00",
@@ -976,7 +1088,8 @@ videoGames = [
 		"price": 19.85,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-03-11T00:00:00",
@@ -987,7 +1100,8 @@ videoGames = [
 		"price": 22.79,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-01-11T00:00:00",
@@ -998,7 +1112,8 @@ videoGames = [
 		"price": 3.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2019-01-06T00:00:00",
@@ -1009,7 +1124,8 @@ videoGames = [
 		"price": 41.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-12-25T00:00:00",
@@ -1020,7 +1136,8 @@ videoGames = [
 		"price": 50.39,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-12-09T00:00:00",
@@ -1031,7 +1148,8 @@ videoGames = [
 		"price": 83.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-11-08T00:00:00",
@@ -1042,7 +1160,8 @@ videoGames = [
 		"price": 79.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-11-07T00:00:00",
@@ -1053,7 +1172,8 @@ videoGames = [
 		"price": 3.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-09-13T00:00:00",
@@ -1064,7 +1184,8 @@ videoGames = [
 		"price": 79.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-09-03T00:00:00",
@@ -1075,7 +1196,8 @@ videoGames = [
 		"price": 18.83,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-08-25T00:00:00",
@@ -1086,7 +1208,8 @@ videoGames = [
 		"price": 55.37,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-08-17T00:00:00",
@@ -1097,7 +1220,8 @@ videoGames = [
 		"price": 5.49,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-07-24T00:00:00",
@@ -1108,7 +1232,8 @@ videoGames = [
 		"price": 53.1,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-07-21T00:00:00",
@@ -1119,7 +1244,8 @@ videoGames = [
 		"price": 3.29,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-07-07T00:00:00",
@@ -1130,7 +1256,8 @@ videoGames = [
 		"price": 18.99,
 		"is_dlc": 1,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-06-17T00:00:00",
@@ -1141,7 +1268,8 @@ videoGames = [
 		"price": 12.02,
 		"is_dlc": 1,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-06-08T00:00:00",
@@ -1152,7 +1280,8 @@ videoGames = [
 		"price": 66.39,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-04-12T00:00:00",
@@ -1163,7 +1292,8 @@ videoGames = [
 		"price": 79.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-04-06T00:00:00",
@@ -1174,7 +1304,8 @@ videoGames = [
 		"price": 6.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-02-28T00:00:00",
@@ -1185,7 +1316,8 @@ videoGames = [
 		"price": 17.49,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-02-19T00:00:00",
@@ -1196,7 +1328,8 @@ videoGames = [
 		"price": 2.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-01-29T00:00:00",
@@ -1207,7 +1340,8 @@ videoGames = [
 		"price": 47.86,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-01-28T00:00:00",
@@ -1218,7 +1352,8 @@ videoGames = [
 		"price": 2.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2018-01-28T00:00:00",
@@ -1229,7 +1364,8 @@ videoGames = [
 		"price": 2.49,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-12-28T00:00:00",
@@ -1240,7 +1376,8 @@ videoGames = [
 		"price": 25.49,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-12-19T00:00:00",
@@ -1251,7 +1388,8 @@ videoGames = [
 		"price": 20.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-12-15T00:00:00",
@@ -1262,7 +1400,8 @@ videoGames = [
 		"price": 6.99,
 		"is_dlc": 1,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-11-21T00:00:00",
@@ -1273,7 +1412,8 @@ videoGames = [
 		"price": 28.25,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-10-25T00:00:00",
@@ -1284,7 +1424,8 @@ videoGames = [
 		"price": 83.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-09-30T00:00:00",
@@ -1295,7 +1436,8 @@ videoGames = [
 		"price": 29.37,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-08-22T00:00:00",
@@ -1306,7 +1448,8 @@ videoGames = [
 		"price": 146.89,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-08-21T00:00:00",
@@ -1317,7 +1460,8 @@ videoGames = [
 		"price": 4.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-08-05T00:00:00",
@@ -1328,7 +1472,8 @@ videoGames = [
 		"price": 4.09,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-08-05T00:00:00",
@@ -1339,7 +1484,8 @@ videoGames = [
 		"price": 39.54,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-07-13T00:00:00",
@@ -1350,7 +1496,8 @@ videoGames = [
 		"price": 83.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-06-30T00:00:00",
@@ -1361,7 +1508,8 @@ videoGames = [
 		"price": 1.29,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-06-15T00:00:00",
@@ -1372,7 +1520,8 @@ videoGames = [
 		"price": 16.19,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-06-07T00:00:00",
@@ -1383,7 +1532,8 @@ videoGames = [
 		"price": 33.59,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-05-29T00:00:00",
@@ -1394,7 +1544,8 @@ videoGames = [
 		"price": 18.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-05-05T00:00:00",
@@ -1405,7 +1556,8 @@ videoGames = [
 		"price": 33.49,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-04-23T00:00:00",
@@ -1416,7 +1568,8 @@ videoGames = [
 		"price": 79.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-04-11T00:00:00",
@@ -1427,7 +1580,8 @@ videoGames = [
 		"price": 3.38,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-03-22T00:00:00",
@@ -1438,7 +1592,8 @@ videoGames = [
 		"price": 29.6,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-03-03T00:00:00",
@@ -1449,7 +1604,8 @@ videoGames = [
 		"price": 451.95,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 1
+		"is_console": 1,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-03-03T00:00:00",
@@ -1460,7 +1616,8 @@ videoGames = [
 		"price": 90.35,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-02-02T00:00:00",
@@ -1471,7 +1628,8 @@ videoGames = [
 		"price": 59.99,
 		"is_dlc": 1,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-01-19T00:00:00",
@@ -1482,7 +1640,8 @@ videoGames = [
 		"price": 17.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-01-19T00:00:00",
@@ -1493,7 +1652,8 @@ videoGames = [
 		"price": 12.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-01-18T00:00:00",
@@ -1504,7 +1664,8 @@ videoGames = [
 		"price": 4.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-01-16T00:00:00",
@@ -1515,7 +1676,8 @@ videoGames = [
 		"price": 29.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-01-15T00:00:00",
@@ -1526,7 +1688,8 @@ videoGames = [
 		"price": 4.09,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-01-14T00:00:00",
@@ -1537,7 +1700,8 @@ videoGames = [
 		"price": 39.99,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-01-08T00:00:00",
@@ -1548,7 +1712,8 @@ videoGames = [
 		"price": 337.36,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 1
+		"is_console": 1,
+		"is_gift": 0
 	},
 	{
 		"date": "2017-01-08T00:00:00",
@@ -1559,6 +1724,7 @@ videoGames = [
 		"price": 40,
 		"is_dlc": 0,
 		"is_subscription": 0,
-		"is_console": 0
+		"is_console": 0,
+		"is_gift": 0
 	}
 ]
