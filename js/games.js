@@ -1,5 +1,17 @@
 videoGames = [
 	{
+		"date": "2024-09-19T00:00:00",
+		"name": "The Legend of Zelda: Echoes of Wisdom",
+		"developer": "Nintendo",
+		"publisher": "Nintendo",
+		"platform": "Switch",
+		"price": 83.99,
+		"is_dlc": 0,
+		"is_subscription": 0,
+		"is_console": 0,
+		"is_gift": 1
+	},
+	{
 		"date": "2024-08-31T00:00:00",
 		"name": "Boomerang Fu - Fresh Flavors Pack",
 		"developer": "Cranky Watermelon",
