@@ -1,5 +1,17 @@
 videoGames = [
 	{
+		"date": "2024-09-20T00:00:00",
+		"name": "UFO 50",
+		"developer": "Mossmouth",
+		"publisher": "Mossmouth",
+		"platform": "Steam",
+		"price": 32.76,
+		"is_dlc": 0,
+		"is_subscription": 0,
+		"is_console": 0,
+		"is_gift": 0
+	},
+	{
 		"date": "2024-09-19T00:00:00",
 		"name": "The Legend of Zelda: Echoes of Wisdom",
 		"developer": "Nintendo",
