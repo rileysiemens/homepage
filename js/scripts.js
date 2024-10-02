@@ -84,7 +84,7 @@ const photoData = () => ({
 	photos,
 
 	photosByDate: function() {
-		return this.photos.sort((a, b) => new Date(b.date) - new Date(a.date));
+		return this.photos.sort((a, b) => new Date(a.date).valueOf() - new Date(b.date).valueOf());
 	},
 
 	relativeDate: function(photo) {
@@ -117,5 +117,5 @@ const photoData = () => ({
 		}
 	
 		return 'just now'
-	}
+	},
 })
