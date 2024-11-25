@@ -1,6 +1,18 @@
 videoGames = [
 	{
 		"date": "2024-09-20T00:00:00",
+		"name": "Core Keeper",
+		"developer": "Pugstorm",
+		"publisher": "Fireshine Games",
+		"platform": "Steam",
+		"price": 29.11,
+		"is_dlc": 0,
+		"is_subscription": 0,
+		"is_console": 0,
+		"is_gift": 0
+	},
+	{
+		"date": "2024-09-20T00:00:00",
 		"name": "UFO 50",
 		"developer": "Mossmouth",
 		"publisher": "Mossmouth",
