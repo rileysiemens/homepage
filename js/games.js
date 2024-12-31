@@ -1,5 +1,17 @@
 videoGames = [
 	{
+		"date": "2024-12-24T00:00:00",
+		"name": "Cyberpunk 2077",
+		"developer": "CD PROJEKT RED",
+		"publisher": "CD PROJEKT RED",
+		"platform": "Steam",
+		"price": 40.31,
+		"is_dlc": 0,
+		"is_subscription": 0,
+		"is_console": 0,
+		"is_gift": 0
+	},
+	{
 		"date": "2024-09-20T00:00:00",
 		"name": "Core Keeper",
 		"developer": "Pugstorm",
