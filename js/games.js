@@ -1,5 +1,29 @@
 videoGames = [
 	{
+		"date": "2024-03-18T00:00:00",
+		"name": "God of War Ragnarök",
+		"developer": "Santa Monica Studio",
+		"publisher": "PlayStation Publishing",
+		"platform": "Steam",
+		"price": 71.67,
+		"is_dlc": 0,
+		"is_subscription": 0,
+		"is_console": 0,
+		"is_gift": 0
+	},
+	{
+		"date": "2025-03-01T00:00:00",
+		"name": "Minecraft",
+		"developer": "Mojang Studios",
+		"publisher": "Xbox Game Studios",
+		"platform": "Switch",
+		"price": 24.69,
+		"is_dlc": 0,
+		"is_subscription": 0,
+		"is_console": 0,
+		"is_gift": 0
+	},
+	{
 		"date": "2024-12-24T00:00:00",
 		"name": "Cyberpunk 2077",
 		"developer": "CD PROJEKT RED",
