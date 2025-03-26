@@ -1,6 +1,6 @@
 videoGames = [
 	{
-		"date": "2024-03-18T00:00:00",
+		"date": "2025-03-18T00:00:00",
 		"name": "God of War Ragnarök",
 		"developer": "Santa Monica Studio",
 		"publisher": "PlayStation Publishing",
